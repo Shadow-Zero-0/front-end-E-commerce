@@ -10,7 +10,7 @@ import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 
 const Dialogmain = ({ product }) => {
-console.log( product);
+
 
   const [z, setz] = useState(0);
   const [alignment, setAlignment] = useState(z);
