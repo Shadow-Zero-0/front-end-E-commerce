@@ -73,7 +73,7 @@ const Herosection = () => {
               position: "relative",
             }}
           >
-            <img width={'100%'} className="rod"  src="src\images\banner-16.jpg" alt="" />
+            <img width={'100%'} className="rod"  src="https://res.cloudinary.com/dtomtlfcs/image/upload/v1732297291/banner-16_lirvu3.jpg" alt="" />
             <Box
               sx={{
                 position: "absolute",
@@ -130,7 +130,7 @@ const Herosection = () => {
               position: "relative",
             }}
           >
-            <img width={'100%'} className="rod"  src="src\images\banner-17.jpg" alt="" />
+            <img width={'100%'} className="rod"  src="https://res.cloudinary.com/dtomtlfcs/image/upload/v1732297292/banner-17_kz8fal.jpg" alt="" />
             <Box
               sx={{
                 position: "absolute",
