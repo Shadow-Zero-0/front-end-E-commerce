@@ -1,6 +1,6 @@
-import Header1 from "./header/header1"
-import Header2 from "./header/header2"
-import Header3 from "./header/header3"
+import Header1 from "./header/Header1"
+import Header2 from "./header/Header2"
+import Header3 from "./header/Header3"
 import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import Herosection from "./hero/herosection";
