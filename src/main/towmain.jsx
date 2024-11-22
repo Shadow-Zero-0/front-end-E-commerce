@@ -16,7 +16,6 @@ import Dialog from "@mui/material/Dialog";
 import { useState } from "react";
 import { CloseSharp } from "@mui/icons-material";
 import { useTheme } from "@emotion/react";
-import { AnimatePresence } from "framer-motion";
 import Dialogmain from "./Dialogmain";
 const Towmain = () => {
   const product = [
@@ -149,7 +148,7 @@ const Towmain = () => {
           justifyContent: "center",
         }}
       >
-        <AnimatePresence>
+
           {product.map((item) => {
             return (
               <Card
@@ -227,7 +226,7 @@ const Towmain = () => {
             );
           })}
          
-        </AnimatePresence>
+  
       </Stack>
       <Dialog
         open={open}
