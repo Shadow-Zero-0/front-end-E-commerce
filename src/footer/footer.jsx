@@ -14,7 +14,9 @@ const Footer = () => {
             borderTopRightRadius:'10px'
         }}>
             <Typography sx={{
-                fontSize:'18px'
+                // fontSize:'15px',
+                fontSize:{xs:'15px',sm:'18px'},
+                color: 'white',
             }} variant="h6" >Designed and developed by 
                     <span style={{
                         color:'#df3333'

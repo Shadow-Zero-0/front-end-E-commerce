@@ -95,9 +95,10 @@ const Header2 = () => {
       <Search
         sx={{
           borderRadius: "55px",
-          display: "flex",
+          display:{xs:'none',sm:'flex'},
           justifyContent:'space-between',
-          alignItems: 'center'
+          alignItems: 'center',
+          
         }}
       >
         <SearchIconWrapper>

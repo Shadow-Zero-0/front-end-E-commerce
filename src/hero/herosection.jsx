@@ -2,21 +2,19 @@ import { ArrowForwardIos } from "@mui/icons-material";
 import { Box, Container, Link, Typography, useTheme } from "@mui/material";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
-import myImage from '../images/banner-15.jpg';
-import myImage1 from '../images/banner-25.jpg';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 
 const Herosection = () => {
   const theme =useTheme()
-  const swiper =[
-    {title:'MEN',link:myImage},
-    {title:'WOMEN',link:myImage1},
+  const swiper1 =[
+    {title:'MEN',link:'https://res.cloudinary.com/djqqkgwwr/image/upload/v1736549331/banner-15_egpxjl.jpg'},
+    {title:'WOMEN',link:'https://res.cloudinary.com/djqqkgwwr/image/upload/v1736549343/banner-25_u40eh6.jpg'},
   ]
   return (
 <>
-      <Container sx={{ display: "flex", alignitems: "center", mt: 3 ,gap:2 ,position:'relative',pt:2}}>
+      <Container sx={{ display: "flex", alignItems: "center", mt: 3 ,gap:2 ,position:'relative',pt:2}}>
        <Swiper
        loop={true}
           pagination={{
@@ -25,7 +23,7 @@ const Herosection = () => {
           modules={[Pagination]}
           className="mySwiper"
         >
-          {swiper.map((item) => {
+          {swiper1.map((item) => {
             return(
               <SwiperSlide key={item.title} className="dad"> 
              <img src={item.link} alt=""  />
